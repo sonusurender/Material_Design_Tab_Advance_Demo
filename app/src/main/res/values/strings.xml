@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Material Design Tabs Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_tab">Default Tab</string>
+    <string name="tab_with_icon_text"><![CDATA[Tab with Icon & Text]]></string>
+    <string name="tab_with_icons">Tab with Icons</string>
+    <string name="custom_tab"><![CDATA[Custom Tab with Icon & Text]]></string>
+</resources>

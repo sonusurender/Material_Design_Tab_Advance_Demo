@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/default_tab_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="showDefaultTab"
+        android:text="@string/default_tab"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/tab_with_icon_andr_text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="showTabWithIconAndText"
+        android:background="@color/colorPrimary"
+        android:text="@string/tab_with_icon_text"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/tab_with_icons_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="showTabWithIconsOnly"
+        android:background="@color/colorPrimary"
+        android:text="@string/tab_with_icons"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/custom_tab_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showCustomTab"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/custom_tab"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
